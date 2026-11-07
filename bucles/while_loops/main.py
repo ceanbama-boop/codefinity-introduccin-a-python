@@ -1,0 +1,11 @@
+start_number = 5
+countdown_values = []
+
+# Countdown using while loop
+#current = start_number
+while start_number >= 1:
+    countdown_values.append(start_number)
+    start_number -= 1
+
+print('Discount countdown complete!')
+print(countdown_values)
